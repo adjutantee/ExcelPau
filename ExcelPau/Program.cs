@@ -12,7 +12,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Create(@"C:\Users\Izagakhmaevra\Desktop\Excel\TestExel.xlsx", SpreadsheetDocumentType.Workbook);
+        SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Create(@"C:\Users\Izagakhmaevra\Desktop\Excel\database.xlsx", SpreadsheetDocumentType.Workbook);
 
         WorkbookPart workbookPart = spreadsheetDocument.AddWorkbookPart();
         workbookPart.Workbook = new Workbook();
